@@ -29,3 +29,9 @@ showRegisterForm.addEventListener('click', (event) => {
     loginContainer.classList.add('hidden');
     registerContainer.classList.remove('hidden');
 });
+
+showLoginForm.addEventListener('click', (event) => {
+    event.preventDefault();
+    registerContainer.classList.add('hidden');
+    loginContainer.classList.remove('hidden');
+});
