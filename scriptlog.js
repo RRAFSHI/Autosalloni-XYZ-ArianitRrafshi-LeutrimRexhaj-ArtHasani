@@ -23,3 +23,9 @@ document.getElementById('registerForm').addEventListener('submit', function (eve
         alert(`Regjistrimi u krye me sukses! Mirë se vini, ${email}`);
     }
 });
+
+showRegisterForm.addEventListener('click', (event) => {
+    event.preventDefault();
+    loginContainer.classList.add('hidden');
+    registerContainer.classList.remove('hidden');
+});
