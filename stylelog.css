@@ -56,3 +56,17 @@ button:hover {
 .hidden {
     display: none;
 }
+.switch-form {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.switch-form a {
+    color: #0059b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.switch-form a:hover {
+    text-decoration: underline;
+}
